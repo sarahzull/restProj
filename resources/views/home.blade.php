@@ -89,6 +89,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                         @auth
                                             <li>
                                                 <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                                <x-app-layout>
+                                                </x-app-layout>
                                             </li>
                                         @else
                                             <li>
